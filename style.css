@@ -39,7 +39,9 @@ h1 {
     color: var(--cor-destaque);
 }
 
-h1, .caixa-perguntas, .caixa-resultado{
+h1,
+.caixa-perguntas,
+.caixa-resultado {
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -68,14 +70,16 @@ button:hover {
     line-height: 1.5em;
 }
 
-.caixa-alternativa{
+.caixa-alternativa {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.caixa-resultado{
+.caixa-resultado {
     display: none;
 }
 
-.caixa-resultado.mostrar{display: block;}
+.caixa-resultado.mostrar {
+    display: block;
+}
